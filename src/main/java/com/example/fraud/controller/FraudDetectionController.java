@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("fraudDetection")
 public class FraudDetectionController {
 
+
     @Autowired
     IFraudDetectionService fraudDetectionService;
     @PostMapping("/analyzeTransaction")
